@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: #111827;
 }
 .box{
   height: 250px;
@@ -125,4 +125,7 @@ hr{
     text-align: center;
     color: black;
 
+}
+.fft{
+    padding-left: 0.6rem;
 }

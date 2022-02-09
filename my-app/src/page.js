@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch, faLock } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faLock ,faBuilding} from '@fortawesome/free-solid-svg-icons'
 import "./page.css";
 
 export default class Pages extends Component {
@@ -21,7 +21,7 @@ export default class Pages extends Component {
                 <p className="papp">Want a secure , private space for your technical Knowlege? </p>
                 <small>Get started</small>
                 <div>
-                <button className="butt">for Large Organization</button>
+                <button className="butt">for Large Organization< FontAwesomeIcon className="fft" icon = {faBuilding} color="white"/></button>
                 <button className="butt">For a team</button>
                 </div>
 
