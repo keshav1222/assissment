@@ -28,6 +28,7 @@ small{
     text-decoration: none;
     color: gray;
     font-size: smaller;
+    text-decoration: underline;
 }
 .ss:before {
   content: "";
@@ -49,8 +50,8 @@ small{
     background: #bae6fd;
     padding: 20px;
     text-align: center;
-    font-weight: 900;
-    color: #fff;
+    font-weight: 500;
+    
     font-family: arial;
     position: relative;
     border-radius: 8px 8px 8px 8px;
@@ -98,4 +99,30 @@ h2{
     font-size: 3rem;
     max-width: 1000px;
     left: 500px;
+}
+hr{
+    box-shadow: none;
+    border-width: 0.1;
+    max-width: 100px;    
+    
+}
+.butt{
+
+    padding: 0.8rem;
+    margin-left: 0.3rem;
+    font-size: large;
+    background-color: #0284c7;
+    color: white;
+    border-radius: 0.2rem;
+    border-color: #0284c7;
+    margin-top: 1.5rem;
+}
+.papp{
+    max-width: 400px;
+    position: relative;
+    left: 50px;
+    padding: 0.5rem;
+    text-align: center;
+    color: black;
+
 }
