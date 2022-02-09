@@ -1,0 +1,101 @@
+body{
+    background-color: gray;
+}
+.box{
+  height: 250px;
+  width: 500px;
+  margin-right: 20px;
+  background: #fed7aa;
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+  color:black;
+  font-family: arial;
+  position: relative;
+  border-radius: 8px 8px 8px 8px;
+  
+}
+.but{
+    padding: 1.5rem;
+    font-size: larger;
+    background-color: orange;
+    color: white;
+    border-radius: 0.2rem;
+    border-color: orange;
+
+}
+small{
+    text-decoration: none;
+    color: gray;
+    font-size: smaller;
+}
+.ss:before {
+  content: "";
+  position: absolute;
+  border-left: 30px solid transparent;
+  border-right: 30px solid #fed7aa;
+  border-top: 30px solid #fed7aa;
+  border-bottom: 30px solid transparent;
+  right: 0px;
+  bottom: -50px;
+  border-radius: 0px 0px 10px 0px;
+  
+
+}
+.box2{
+    height: 250px;
+    width: 500px;
+    /* margin: 50px auto; */
+    background: #bae6fd;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    font-family: arial;
+    position: relative;
+    border-radius: 8px 8px 8px 8px;
+    
+}
+.s1:before {
+    content: "";
+    position: absolute;
+    border-left: 30px solid #bae6fd;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #bae6fd;
+    border-bottom: 30px solid transparent;
+    left: 0px;
+    bottom: -50px;
+    border-radius: 0px 0px 0px 10px;
+    
+  
+}
+.box-container{
+    position: relative;
+    display: flex;
+    margin: 50px 50px 50px 50px;
+    left: 400px;
+    top: 200px;
+   
+   
+}
+.pap{
+    max-width: 400px;
+    position: relative;
+    left: 50px;
+    padding: 0.5rem;
+    text-align: center;
+}
+strong{
+    color: orange;
+    font-size: 4rem;
+}
+h2{
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-weight: 1000;
+    color: white;
+    font-size: 3rem;
+    max-width: 1000px;
+    left: 500px;
+}
